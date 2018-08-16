@@ -1,0 +1,8 @@
+1°) Default sur php.ini, il faut:
+always_populate_raw_post_data = -1
+
+2°) Default 504 timeout NGINX pendant l'install:
+	a) definir mon drupal.conf suivant https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/
+	b) changer les timeout suivant https://www.scalescale.com/tips/nginx/504-gateway-time-out-using-nginx/
+	c) lancer 1ere installation en english pour ne pas telecharger les langues
+
