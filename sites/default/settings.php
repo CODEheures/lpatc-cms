@@ -227,7 +227,7 @@ $databases = array (
     ),
   ),
 );
-
+$conf['https'] = TRUE;
 /**
  * Access control for update.php script.
  *
@@ -280,7 +280,7 @@ $drupal_hash_salt = 'cAEBW40okTJ9EMo_GGV7Xeu-5aaBjQsLMACtGjSA9og';
  * It is not allowed to have a trailing slash; Drupal will add it
  * for you.
  */
-# $base_url = 'http://www.example.com';  // NO trailing slash!
+$base_url = 'https://lpatc-cms.codeheures.com';  // NO trailing slash!
 
 /**
  * PHP settings:
